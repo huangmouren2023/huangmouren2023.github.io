@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="GEM12 CloudDrive：个人使用的 rclone Google Drive 接入项目说明。">
+  <title>GEM12 CloudDrive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow">个人项目 · Personal project</p>
+  <h1>GEM12 CloudDrive</h1>
+  <p class="intro">使用 rclone 和 WinFsp，将本人授权的 Google Drive 作为 Windows 按需访问磁盘。</p>
+  <section>
+    <h2>项目用途</h2>
+    <p>本项目由 GitHub 用户 <a href="https://github.com/huangmouren2023">huangmouren2023</a> 维护，供个人管理自己的 Google Drive 文件。计划支持在 Windows 中浏览、上传、下载、重命名、移动、删除文件，以及按需读取媒体。它不是公开提供的云存储服务。</p>
+    <p>Google Drive 接入使用 Google OAuth，由账号持有人决定是否授予权限。完整磁盘读写需要访问所授权 Google Drive 文件的权限。OAuth 客户端凭据和令牌保存在使用者自己的设备上。</p>
+  </section>
+  <section>
+    <h2>本网站的作用</h2>
+    <p>本站由 GitHub Pages 托管，仅提供项目说明和隐私政策。本站没有登录入口、上传表单、数据库或 OAuth 回调，不接收 Google Drive 文件、OAuth 客户端密钥或授权令牌。</p>
+    <p>实际文件操作发生在使用者自己的 rclone 程序与 Google Drive 之间。本项目不隶属于 Google、GitHub、rclone 或 WinFsp，也不代表这些项目提供服务。</p>
+  </section>
+  <nav aria-label="项目资料"><a href="privacy.html">隐私政策 / Privacy policy</a><a href="terms.html">使用说明 / Terms</a></nav>
+  <footer>维护者：huangmouren2023 · 更新日期：2026-10-14</footer>
+</main>
+</body>
+</html>

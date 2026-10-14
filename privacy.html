@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>隐私政策 · GEM12 CloudDrive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow">GEM12 CloudDrive</p>
+  <h1>隐私政策</h1>
+  <p>本政策描述维护者 huangmouren2023 的个人 rclone Google Drive 接入项目。更新日期：2026-10-14。</p>
+  <section><h2>访问与使用 Google 数据</h2>
+    <p>本项目通过 Google OAuth 请求账号持有人授权。授予完整 Drive 权限后，本机 rclone 可以列出文件及目录，读取内容，并根据使用者操作上传、修改、重命名、移动和删除文件。相关访问用于使用者对自己的 Google Drive 进行文件管理和媒体读取，不用于广告投放、建立用户画像或训练通用人工智能模型。</p>
+  </section>
+  <section><h2>数据与凭据存储</h2>
+    <p>OAuth 客户端资料、访问令牌和刷新令牌保存在使用者自己的设备配置中。按需缓存、待上传文件及运行日志也保存在自己的设备上；运行日志可能包含文件名、路径和错误信息。上传的文件与云端元数据由 Google Drive 存储。</p>
+    <p>这些本地数据的保留时间取决于实际 rclone 配置和使用者操作。读取缓存可按容量和时间清理；尚未完成上传的文件需要保留至上传完成。本站不承诺本地配置、日志或缓存自动永久删除。</p>
+  </section>
+  <section><h2>传输与共享</h2>
+    <p>rclone 为执行授权的文件操作与 Google 的 OAuth 和 Drive 服务通信。网站和代码托管由 GitHub 提供。维护者不出售 Google 用户数据，不把 Google Drive 文件或 OAuth 密钥上传到 GitHub Pages，也不通过本站将云盘内容提供给其他访客。</p>
+    <p>本项目对 Google API 数据的使用遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 要求。</p>
+  </section>
+  <section><h2>静态网站访问</h2>
+    <p>本站不设置表单、站点分析脚本或应用自有追踪器，不接收云盘文件或 OAuth 密钥。GitHub Pages 作为托管服务可能按照其自身政策处理访问请求相关信息，具体见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+  </section>
+  <section><h2>撤销授权与删除</h2>
+    <p>账号持有人可以在 <a href="https://myaccount.google.com/connections">Google 账号的第三方连接页面</a> 撤销授权，并在自己的设备上删除对应凭据。停止使用后，可自行清理本地缓存和日志；清理前应确认待上传内容已处理。云端文件及回收站内容由账号持有人通过 Google Drive 管理。</p>
+  </section>
+  <section><h2>联系与更新</h2>
+    <p>维护者的公开身份为 <a href="https://github.com/huangmouren2023">huangmouren2023</a>。本政策随实际实现变化更新。公开讨论中请勿提交 OAuth 密钥、令牌或私人文件。</p>
+  </section>
+  <nav><a href="index.html">返回项目主页</a><a href="terms.html">使用说明</a></nav>
+</main>
+</body>
+</html>

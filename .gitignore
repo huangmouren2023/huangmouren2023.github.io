@@ -1,0 +1,9 @@
+*.conf
+*.json
+*.log
+*.key
+*.pem
+client_secret*
+oauth-client*
+.env*
+node_modules/
