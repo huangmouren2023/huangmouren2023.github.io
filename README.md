@@ -12,4 +12,4 @@ Expected terms page: https://huangmouren2023.github.io/terms.html
 
 Google Branding application name should match `GEM12 CloudDrive`. Whether the GitHub Pages domain satisfies this project's Production publishing requirements must be checked in Google Cloud. A deployed website does not prove OAuth publication or domain verification.
 
-Local source prepared 2026-10-14. Deployment and OAuth publication are not yet verified.
+Deployed and verified 2026-10-14: homepage and privacy policy return HTTP 200. Google Branding saved this site's URLs and authorized domain; the project's Audience shows In production. This is publication evidence, not a claim of formal Google application or domain verification. Local OAuth credentials remain outside this repository.
